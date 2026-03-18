@@ -1,8 +1,8 @@
 [project]
 name = "augment-UpscalePro"
-description = "✨ Augment Upscale — AI-powered logo and image upscaler for ComfyUI. Upscale logos, icons, and brand assets to high resolution with sharp, clean results. A professional alternative to Magnific AI built directly into your ComfyUI workflow. Supports 2x and 4x upscaling via the Augment Studio API with automatic job polling and tensor output. Ideal for logo design, brand asset pipelines, print-ready artwork, and any workflow that needs crisp detail-preserving enlargement. Includes built-in flow control trigger and wait nodes for chaining multi-step pipelines. Get your API key at [a/augmentstudio.app/pricing](https://augmentstudio.app/pricing)"
+description = "✨ Augment Upscale — Logo and image upscaler for ComfyUI. Upscale logos, icons, and brand assets to high resolution with sharp, clean results. A professional alternative to Magnific AI built directly into your ComfyUI workflow. Supports 2x upscaling via the Augment Studio API with automatic job polling and tensor output. Ideal for logo design, brand asset pipelines, print-ready artwork, and any workflow that needs crisp detail-preserving enlargement. Includes built-in flow control trigger and wait nodes for chaining multi-step pipelines. Get your API key at [a/augmentstudio.app/pricing](https://augmentstudio.app/pricing)"
 version = "1.0.0"
-licence = { file = "LICENSE.md" }
+licence = { file = "LICENCE.md" }
 
 dependencies = [
     "numpy>=1.19.0",
@@ -17,5 +17,5 @@ Website = "https://augmentstudio.app/"
 
 [tool.comfy]
 PublisherId = "augmentstudio"
-DisplayName = "✨ augment Upscale Pro - AI Image & Logo Upscaler, Enhancer and Enlarger for ComfyUI"
+DisplayName = "✨ augment Upscale Pro - Image & Logo Upscaler, Enhancer and Enlarger for ComfyUI"
 Icon = "https://avatars.githubusercontent.com/u/243209371?s=400&u=db6e0d310dcf8863dd5c735d3ebbdaa5c317530d&v=4"

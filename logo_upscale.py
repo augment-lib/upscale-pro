@@ -42,7 +42,7 @@ class AugmentLogoUpscale:
     RETURN_TYPES = ("IMAGE", "AUGMENT_JSON", "TRIGGER")
     RETURN_NAMES = ("image", "json_result", "trigger")
     FUNCTION = "execute"
-    CATEGORY = "Augment/Enchance"
+    CATEGORY = "Augment/Enhance"
     OUTPUT_NODE = True
 
     @classmethod
