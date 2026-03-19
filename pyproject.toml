@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/augment-lib/augment-upscale-pro"
+Repository = "https://github.com/augment-lib/upscale-pro"
 Website = "https://augmentstudio.app/"
 
 [tool.comfy]
