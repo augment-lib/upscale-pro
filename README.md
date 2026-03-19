@@ -10,6 +10,15 @@ Drop in a logo, icon, or any flat artwork and get back a sharp, high-resolution 
 2. Install the node from ComfyUI Manager (search "augment Upscale Pro")
 3. Add the **Upscale Pro** node to your workflow, paste in your key, and connect an image
 
+## Saving your API key
+
+You can avoid pasting your key every time by using the **Variable Set** and **Variable Get** nodes from [augment-ComfyUI](https://github.com/augment-lib/augment-ComfyUI).
+
+1. Install augment-ComfyUI from ComfyUI Manager (search "augment-ComfyUI")
+2. Add a **Variable Set (String)** node and paste your key into `value`
+3. Connect its `text` output to the `api_key` input on Upscale Pro
+4. Next time, swap it out for a **Variable Get (String)** node and it will pull your saved key automatically
+
 ## Also included
 
 **Trigger** flow nodes for wiring up multi-step workflows. Use them to chain the upscaler with other nodes so everything runs in the right order.
